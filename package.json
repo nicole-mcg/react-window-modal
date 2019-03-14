@@ -30,5 +30,26 @@
   "bugs": {
     "url": "https://github.com/nik-m2/react-window-modal/issues"
   },
-  "homepage": "https://github.com/nik-m2/react-window-modal#readme"
+  "homepage": "https://github.com/nik-m2/react-window-modal#readme",
+  "dependencies": {
+    "window-modal": "0.0.2"
+  },
+  "devDependencies": {
+    "@types/auto-bind": "^1.2.0",
+    "@types/enzyme": "^3.9.0",
+    "@types/jest": "^24.0.11",
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
+    "auto-bind": "^2.0.0",
+    "enzyme": "^3.9.0",
+    "jest": "^24.5.0",
+    "jest-summary-reporter": "0.0.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "ts-jest": "^24.0.0",
+    "tsconfig-paths": "^3.8.0",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.3333"
+  }
 }
