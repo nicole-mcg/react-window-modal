@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        /* Basic Options */
+        "target": "es2017",
+        "module": "es6",
+        "lib": ["es2017", "dom"],
+        "declaration": true,
+        "sourceMap": true,
+        "outDir": "./build",
+        "jsx": "react",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        /* Strict Type-Checking Options */
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        /* Additional Checks */
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        /* Experimental Options */
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "@src/*": [
+                "src/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "tests/**/*.ts",
+        "tests/**/*.tsx",
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
