@@ -1,0 +1,15 @@
+src
+test
+docs
+
+tsconfig.json
+tslint.json
+jest.config.js
+webpack.config.js
+__mocks__
+
+.babelrc
+.gitignore
+.travis.yml
+
+!build/**/*.ts
