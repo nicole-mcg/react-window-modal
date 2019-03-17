@@ -13,7 +13,7 @@
 | movable | boolean | If false, the window cannot be moved by the user |
 | compact | boolean | If true, the style for the window's title bar will have less spacing |
 
-# Events
+## Events
 
 | Name | Type | Description |
 | ------------- | ------------- | ----- |
