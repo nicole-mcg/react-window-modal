@@ -13,7 +13,6 @@ module.exports = {
   mode: "production",
   externals : {
     react: 'react',
-    "window-modal": 'window-modal',
   },
   module: {
     rules: [
