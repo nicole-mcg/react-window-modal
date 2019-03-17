@@ -19,7 +19,7 @@ describe("WindowModal", () => {
 
         expect(VanillaWindowModal).toHaveBeenCalledWith({
             ...props,
-            elementSelector: id,
+            elementSelector: `#${id}`,
         });
     });
 
