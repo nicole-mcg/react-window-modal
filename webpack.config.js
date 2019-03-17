@@ -48,7 +48,7 @@ module.exports = {
   },
   output: {
     library: "WindowModal",
-    libraryExport: "WindowModal",
+    libraryExport: "default",
     libraryTarget: 'umd',
     auxiliaryComment: 'Test Comment',
     filename: "[name].js",
