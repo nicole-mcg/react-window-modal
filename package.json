@@ -3,7 +3,7 @@
   "version": "0.0.8",
   "description": "A React wrapper for the window-modal package",
   "main": "build/index.js",
-  "types": "build/src/index.d.ts",
+  "types": "build/index.d.ts",
   "scripts": {
     "test": "jest",
     "lint": "tslint -p ./tsconfig.json",
