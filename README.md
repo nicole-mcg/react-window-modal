@@ -35,7 +35,7 @@
     <br/>
 
 ```xml
-<script src="https://cdn.jsdelivr.net/npm/window-modal/build/index.js"/>
+<script src="https://cdn.jsdelivr.net/npm/react-window-modal/build/index.js"/>
 ```
     
 </details>
