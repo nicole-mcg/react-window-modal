@@ -35,13 +35,13 @@
   },
   "homepage": "https://github.com/nik-m2/react-window-modal#readme",
   "dependencies": {
-    "window-modal": "0.0.16"
   },
   "peerDependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
   "devDependencies": {
+    "window-modal": "0.0.16",
     "@types/auto-bind": "^1.2.0",
     "@types/enzyme": "^3.9.0",
     "@types/enzyme-adapter-react-16": "^1.0.5",
