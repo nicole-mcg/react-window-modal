@@ -48,26 +48,29 @@
     </summary>
     <br/>
 
-`npm install window-modal`
+`npm install react-window-modal`
 
 then
 
 ```javascript
-const WindowModal = require("window-modal");
+const WindowModal = require("react-window-modal");
 ```
 
 or
 
 ```javascript
-import WindowModal from "window-modal";
+import WindowModal from "react-window-modal";
 ```
 </details>
 
 ## Usage
 
-```
+```jsx
 const options = { option: value };
-new WindowModal(options);
+
+function render(props) {
+    return <ModalWindow>contents</ModalWindow
+}
 ```
 
 - [Options](https://github.com/nik-m2/window-modal/blob/master/docs/options.md)
