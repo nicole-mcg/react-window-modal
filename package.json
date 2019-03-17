@@ -36,6 +36,10 @@
   "dependencies": {
     "window-modal": "0.0.2"
   },
+  "peerDependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
   "devDependencies": {
     "@types/auto-bind": "^1.2.0",
     "@types/enzyme": "^3.9.0",
@@ -48,8 +52,6 @@
     "enzyme-adapter-react-16": "^1.11.2",
     "jest": "^24.5.0",
     "jest-summary-reporter": "0.0.2",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
     "source-map-loader": "^0.2.4",
     "ts-jest": "^24.0.0",
     "ts-loader": "^5.3.3",

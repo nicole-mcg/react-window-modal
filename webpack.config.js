@@ -12,6 +12,9 @@ module.exports = {
   target: 'web',
   devtool: "inline-source-map",
   mode: "production",
+  externals : {
+    react: 'react'
+  },
   module: {
     rules: [
       {
