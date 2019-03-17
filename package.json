@@ -4,7 +4,8 @@
   "description": "A React wrapper for the window-modal package",
   "main": "build/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "tslint -p ./tsconfig.json"
   },
   "repository": {
     "type": "git",
