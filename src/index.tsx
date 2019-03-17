@@ -35,7 +35,7 @@ class WindowModal extends Component<IWindowModalProps> {
 
     constructor(props: IWindowModalProps) {
         super(props);
-        this.elementId = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+        this.elementId = "a" + (Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15));
         this.windowModal = null;
     }
 
