@@ -66,7 +66,7 @@ import WindowModal from "react-window-modal";
 ## Usage
 
 ```jsx
-function render(props) {
+function render() {
     return <ModalWindow>contents</ModalWindow>
 }
 ```
