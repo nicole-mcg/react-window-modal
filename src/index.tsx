@@ -142,8 +142,7 @@ class WindowModal extends Component<IWindowModalProps> {
             return;
         }
 
-        const { element } = windowModal;
-        element.addEventListener(eventName, handler);
+        windowModal.addEventListener(eventName, handler);
     }
 
     _removeEventListener(eventName: string, handler: (event: Event) => void) {
@@ -152,8 +151,7 @@ class WindowModal extends Component<IWindowModalProps> {
             return;
         }
 
-        const { element } = windowModal;
-        element.removeEventListener(eventName, handler);
+        windowModal.removeEventListener(eventName, handler);
     }
 }
 
