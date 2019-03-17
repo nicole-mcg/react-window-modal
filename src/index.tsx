@@ -7,11 +7,13 @@ import VanillaWindowModal, {
     WindowModalFocusEvent,
     WindowModalResizeEvent,
     WindowModalMoveEvent,
+    WindowModalCloseEvent,
 } from "window-modal";
 
 export interface IWindowModalProps extends IWindowModalOptions {
     focused?: boolean;
     elementSelector?: never;
+    onClose?: (event: WindowModalCloseEvent) => void;
     onMinimize?: (event: WindowModalMinimizeEvent) => void;
     onUnminimize?: (event: WindowModalUnminimizeEvent) => void;
     onFocus?: (event: WindowModalFocusEvent) => void;
@@ -21,6 +23,7 @@ export interface IWindowModalProps extends IWindowModalOptions {
 }
 
 export const eventHandlerToName: { [K in keyof IWindowModalProps]: string } = {
+    onClose: "close",
     onMinimize: "minimize",
     onUnminimize: "unminimize",
     onFocus: "focus",

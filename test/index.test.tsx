@@ -111,7 +111,7 @@ describe("WindowModal", () => {
         Object.keys(props).forEach((propName) => {
             const handler = props[propName];
             const eventName: any = (eventHandlerToName as any)[propName];
-            expect(windowModal.element.removeEventListener)
+            expect(windowModal.removeEventListener)
                 .toHaveBeenCalledWith(eventName, handler);
         });
 
@@ -124,7 +124,7 @@ describe("WindowModal", () => {
             const handler = jest.fn();
             const wrapper = mount(<WindowModal {...{ [handlerName]: handler }}/>);
             const { windowModal } = (wrapper.instance() as any);
-            expect(windowModal.element.addEventListener)
+            expect(windowModal.addEventListener)
                 .toHaveBeenCalledWith(eventName, handler);
         });
 
@@ -132,11 +132,11 @@ describe("WindowModal", () => {
             const handler = jest.fn();
             const wrapper = mount(<WindowModal/>);
             const { windowModal } = (wrapper.instance() as any);
-            expect(windowModal.element.addEventListener)
+            expect(windowModal.addEventListener)
                 .not.toHaveBeenCalled();
 
             wrapper.setProps({ [handlerName]: handler });
-            expect(windowModal.element.addEventListener)
+            expect(windowModal.addEventListener)
                 .toHaveBeenCalledWith(eventName, handler);
         });
 
@@ -144,10 +144,10 @@ describe("WindowModal", () => {
             const handler = jest.fn();
             const wrapper = mount(<WindowModal {...{ [handlerName]: handler }}/>);
             const { windowModal } = (wrapper.instance() as any);
-            expect(windowModal.element.addEventListener)
+            expect(windowModal.addEventListener)
                 .toHaveBeenCalledWith(eventName, handler);
             wrapper.setProps({ [handlerName]: null });
-            expect(windowModal.element.removeEventListener)
+            expect(windowModal.removeEventListener)
                 .toHaveBeenCalledWith(eventName, handler);
         });
 
