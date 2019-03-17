@@ -1,6 +1,6 @@
 {
   "name": "react-window-modal",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "A React wrapper for the window-modal package",
   "main": "build/index.js",
   "types": "build/index.d.ts",
