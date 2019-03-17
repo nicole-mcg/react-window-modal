@@ -69,7 +69,7 @@ import WindowModal from "react-window-modal";
 const options = { option: value };
 
 function render(props) {
-    return <ModalWindow>contents</ModalWindow
+    return <ModalWindow>contents</ModalWindow>
 }
 ```
 
