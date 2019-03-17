@@ -13,3 +13,5 @@ __mocks__
 .travis.yml
 
 !build/**/*.ts
+
+build/tests
