@@ -12,7 +12,8 @@ module.exports = {
   target: 'web',
   mode: "production",
   externals : {
-    react: 'react'
+    react: 'react',
+    "window-modal": 'window-modal',
   },
   module: {
     rules: [
