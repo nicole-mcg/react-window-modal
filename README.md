@@ -66,8 +66,6 @@ import WindowModal from "react-window-modal";
 ## Usage
 
 ```jsx
-const options = { option: value };
-
 function render(props) {
     return <ModalWindow>contents</ModalWindow>
 }
