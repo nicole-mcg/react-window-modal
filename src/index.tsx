@@ -29,7 +29,7 @@ export const eventHandlerToName: { [K in keyof IWindowModalProps]: string } = {
     onMove: "move",
 };
 
-export default class WindowModal extends Component<IWindowModalProps> {
+class WindowModal extends Component<IWindowModalProps> {
     private windowModal: VanillaWindowModal | null;
     private elementId: string;
 
@@ -156,3 +156,5 @@ export default class WindowModal extends Component<IWindowModalProps> {
         element.removeEventListener(eventName, handler);
     }
 }
+
+export default WindowModal;
