@@ -1,6 +1,6 @@
 {
   "name": "react-window-modal",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "A React wrapper for the window-modal package",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -34,8 +34,7 @@
     "url": "https://github.com/nik-m2/react-window-modal/issues"
   },
   "homepage": "https://github.com/nik-m2/react-window-modal#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
