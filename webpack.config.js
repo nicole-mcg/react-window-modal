@@ -10,7 +10,6 @@ module.exports = {
     index: './src/index.tsx',
   },
   target: 'web',
-  devtool: "inline-source-map",
   mode: "production",
   externals : {
     react: 'react'
@@ -19,10 +18,7 @@ module.exports = {
     rules: [
       {
         test: /\.tsx$/,
-        use: [
-          'ts-loader',
-          'source-map-loader',
-        ]
+        use: 'ts-loader',
       },
       {
         test: /\.(less|css)$/,
