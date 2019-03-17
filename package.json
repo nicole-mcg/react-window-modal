@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/nik-m2/react-window-modal#readme",
   "dependencies": {
-    "window-modal": "0.0.15"
+    "window-modal": "0.0.16"
   },
   "peerDependencies": {
     "react": "^16.8.4",

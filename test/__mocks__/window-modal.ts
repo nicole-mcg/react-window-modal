@@ -7,6 +7,6 @@ const windowModalStub = {
     element: elementStub,
     destroy: jest.fn(),
 };
-export const WindowModal = jest.fn().mockImplementation(() => {
+export default jest.fn().mockImplementation(() => {
     return windowModalStub;
 });

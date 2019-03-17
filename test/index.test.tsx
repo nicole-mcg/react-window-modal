@@ -1,7 +1,7 @@
 import React from "react";
 import { mount } from "enzyme";
-import { WindowModal, eventHandlerToName, IWindowModalProps } from "@src/index";
-import { WindowModal as VanillaWindowModal } from "window-modal";
+import WindowModal, { eventHandlerToName, IWindowModalProps } from "../src/index";
+import VanillaWindowModal from "window-modal";
 
 describe("WindowModal", () => {
 
