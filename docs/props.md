@@ -1,6 +1,4 @@
-
 # Props
-
 
 <b><sub>* All props are optional</sub></b>
 
@@ -14,6 +12,11 @@
 | resizable | boolean | If false, the window cannot be resized by the user |
 | movable | boolean | If false, the window cannot be moved by the user |
 | compact | boolean | If true, the style for the window's title bar will have less spacing |
+
+# Events
+
+| Name | Type | Description |
+| ------------- | ------------- | ----- |
 | hideClose | boolean | If true, no close button will be added to the window |
 | hideMinimize | boolean | If true, no minimize button will be added to the window |
 | onClose | Function | Called when the window is closed |
