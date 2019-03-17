@@ -44,7 +44,7 @@ class WindowModal extends Component<IWindowModalProps> {
 
         this.windowModal = new VanillaWindowModal({
             ...this.props,
-            elementSelector: this.elementId,
+            elementSelector: `#${this.elementId}`,
         });
 
         Object.keys(eventHandlerToName).forEach((handlerName: string) => {
