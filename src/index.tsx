@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import {
-    WindowModal as VanillaWindowModal,
+import VanillaWindowModal, {
     IWindowModalOptions,
     WindowModalBlurEvent,
     WindowModalUnminimizeEvent,
