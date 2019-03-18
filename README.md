@@ -29,25 +29,7 @@
 
 ## Setup
 
-<details>
-    <summary style="display:inline-block;">
-        <b>CDN</b>
-    </summary>
-    <br/>
-
-```xml
-<script src="https://cdn.jsdelivr.net/npm/react-window-modal/build/index.js"/>
-```
-    
-</details>
-
-<br/>
-
-<details open>
-    <summary>
-        <b>npm</b>
-    </summary>
-    <br/>
+<b>npm</b>
 
 `npm install react-window-modal`
 
@@ -62,7 +44,6 @@ or
 ```javascript
 import WindowModal from "react-window-modal";
 ```
-</details>
 
 ## Usage
 
