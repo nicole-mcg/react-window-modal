@@ -33,6 +33,16 @@ describe("WindowModal", () => {
         expect(wrapper.text()).toEqual("Hello!");
     });
 
+    it("will update window-modal props", () => {
+        const wrapper = mount(<WindowModal/>);
+        const { windowModal } = (wrapper.instance() as any);
+        expect(windowModal.test).not.toEqual(1);
+
+        wrapper.setProps({ test: 1 });
+
+        expect(windowModal.test).toEqual(1);
+    });
+
     it("will update window-modal title", () => {
         const title = "test title";
         const wrapper = mount(<WindowModal/>);
