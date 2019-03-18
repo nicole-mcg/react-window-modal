@@ -79,7 +79,6 @@ function render() {
 | Name | Type | Description |
 | ------------- | ------------- | ----- |
 | title | string | The title for the window |
-| elementSelector | string | A selector to an element to use for the window. Contents, props and element type are preserved |
 | icon | [IWindowIcon](https://github.com/nik-m2/window-modal/blob/master/docs/IWindowIcon.md) | An icon to use for the window |
 | pos | [IPoint](https://github.com/nik-m2/window-modal/blob/master/docs/IPoint.md) | The starting position for the window |
 | size | [IPoint](https://github.com/nik-m2/window-modal/blob/master/docs/IPoint.md) | The starting size for the (must be greater than 200!) |
