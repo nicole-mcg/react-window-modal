@@ -3,7 +3,9 @@
 A React wrapper for 
 
 <p align="center">
-    A React wrapper for the <a href="https://github.com/nik-m2/window-modal">modal-window</a> package; a modal window element designed to be smooth, clean and user friendly.
+    A React wrapper for the <a href="https://github.com/nik-m2/window-modal">modal-window</a> package;
+    <br>
+    A modal window element designed to be smooth, clean and user friendly.
     <br>
     Includes many features and <a href="#props">options</a>! 
     <br>
