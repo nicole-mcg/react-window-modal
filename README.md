@@ -1,7 +1,9 @@
 # react-window-modal [![Build Status](https://travis-ci.org/nik-m2/react-window-modal.svg?branch=master)](https://travis-ci.org/nik-m2/react-window-modal) [![npm version](https://badge.fury.io/js/react-window-modal.svg)](https://badge.fury.io/js/react-window-modal)
 
+A React wrapper for 
+
 <p align="center">
-    A modal window element designed to be smooth, clean and user friendly.
+    A React wrapper for a <a href="https://github.com/nik-m2/window-modal">modal window</a> element designed to be smooth, clean and user friendly.
     <br>
     Includes many features and <a href="#props">options</a>! 
     <br>
