@@ -87,29 +87,16 @@ class WindowModal extends Component<IWindowModalProps> {
             return;
         }
 
-        if (prevProps.title !== props.title) {
-            windowModal.title = props.title || "";
-        }
-
-        if (prevProps.size !== props.size) {
-            windowModal.size = props.size || { x: 0, y: 0 };
-        }
-
-        if (prevProps.pos !== props.pos) {
-            windowModal.pos = props.pos || { x: 0, y: 0 };
-        }
-
-        if (prevProps.focused !== props.focused) {
-            windowModal.focused = Boolean(props.focused);
-        }
-
-        if (prevProps.resizable !== props.resizable) {
-            windowModal.resizable = Boolean(props.resizable);
-        }
-
-        if (prevProps.movable !== props.movable) {
-            windowModal.movable = Boolean(props.movable);
-        }
+        Object.keys(props).forEach((propName) => {
+            if (Object.keys(eventHandlerToName).includes(propName)) {
+                return;
+            }
+            const newValue = props[propName];
+            const oldValue = prevProps[propName];
+            if (newValue !== oldValue) {
+                (windowModal as any)[propName] = newValue;
+            }
+        });
 
         Object.keys(eventHandlerToName).forEach((handlerName: string) => {
             const oldHandler = prevProps[handlerName];
