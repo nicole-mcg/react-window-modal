@@ -29,7 +29,9 @@
 
 ## Setup
 
-`npm install react-window-modal`
+```shell
+npm install react-window-modal
+```
 
 then
 
