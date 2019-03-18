@@ -3,7 +3,7 @@
 <p align="center">
     A modal window element designed to be smooth, clean and user friendly.
     <br>
-    Includes many features and <a href="https://github.com/nik-m2/react-window-modal#props">options</a>! 
+    Includes many features and <a href="#props">options</a>! 
     <br>
     <a href="https://codesandbox.io/s/vnxjnnz1o7"><b>Demo</b></a>
     <br>
